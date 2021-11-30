@@ -1,0 +1,1919 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 14,
+        "name": "Verifying contact us Form error message",
+        "description": "",
+        "id": "musala-software;verifying-contact-us-form-error-message;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "open contact page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "user fill the form as fllow",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "name",
+                  "Mostafa"
+                ],
+                "line": 6
+              },
+              {
+                "cells": [
+                  "email",
+                  "test@test"
+                ],
+                "line": 7
+              },
+              {
+                "cells": [
+                  "subject",
+                  "This is a test subject"
+                ],
+                "line": 8
+              },
+              {
+                "cells": [
+                  "message",
+                  "This is a test message"
+                ],
+                "line": 9
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "user click on send",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "error message should be displayed",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Verifying contact us Form error message",
+        "description": "",
+        "id": "musala-software;verifying-contact-us-form-error-message;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "open contact page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "user fill the form as fllow",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "name",
+                  "Mostafa"
+                ],
+                "line": 6
+              },
+              {
+                "cells": [
+                  "email",
+                  "test.com"
+                ],
+                "line": 7
+              },
+              {
+                "cells": [
+                  "subject",
+                  "This is a test subject"
+                ],
+                "line": 8
+              },
+              {
+                "cells": [
+                  "message",
+                  "This is a test message"
+                ],
+                "line": 9
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "user click on send",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "error message should be displayed",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Verifying contact us Form error message",
+        "description": "",
+        "id": "musala-software;verifying-contact-us-form-error-message;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "open contact page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "user fill the form as fllow",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "name",
+                  "Mostafa"
+                ],
+                "line": 6
+              },
+              {
+                "cells": [
+                  "email",
+                  "test"
+                ],
+                "line": 7
+              },
+              {
+                "cells": [
+                  "subject",
+                  "This is a test subject"
+                ],
+                "line": 8
+              },
+              {
+                "cells": [
+                  "message",
+                  "This is a test message"
+                ],
+                "line": 9
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "user click on send",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "error message should be displayed",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Verifying contact us Form error message",
+        "description": "",
+        "id": "musala-software;verifying-contact-us-form-error-message;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "open contact page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "user fill the form as fllow",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "name",
+                  "Mostafa"
+                ],
+                "line": 6
+              },
+              {
+                "cells": [
+                  "email",
+                  "@test.com"
+                ],
+                "line": 7
+              },
+              {
+                "cells": [
+                  "subject",
+                  "This is a test subject"
+                ],
+                "line": 8
+              },
+              {
+                "cells": [
+                  "message",
+                  "This is a test message"
+                ],
+                "line": 9
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "user click on send",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "error message should be displayed",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Verifying contact us Form error message",
+        "description": "",
+        "id": "musala-software;verifying-contact-us-form-error-message;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "open contact page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "user fill the form as fllow",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "name",
+                  "Mostafa"
+                ],
+                "line": 6
+              },
+              {
+                "cells": [
+                  "email",
+                  ".com"
+                ],
+                "line": 7
+              },
+              {
+                "cells": [
+                  "subject",
+                  "This is a test subject"
+                ],
+                "line": 8
+              },
+              {
+                "cells": [
+                  "message",
+                  "This is a test message"
+                ],
+                "line": 9
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "user click on send",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "error message should be displayed",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "Verifying URLs of company and facebook pages and leadership section and Fb picture profile",
+        "description": "",
+        "id": "musala-software;verifying-urls-of-company-and-facebook-pages-and-leadership-section-and-fb-picture-profile",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21,
+            "name": "open company page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 22,
+            "name": "the correct URL is loaded",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 23,
+            "name": "the leadership section is visible",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 24,
+            "name": "user open the facebook link",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 25,
+            "name": "the facebook URL is loaded",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 26,
+            "name": "the Musala Soft profile picture appears on the new page",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 53,
+        "name": "Verify apply position form error messages",
+        "description": "",
+        "id": "musala-software;verify-apply-position-form-error-messages;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 30,
+            "name": "open careers page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 31,
+            "name": "user click on check our open positions button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 32,
+            "name": "the correct URL of join us page is loaded",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 33,
+            "name": "user select \"Anywhere\" from location dropdown list",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 34,
+            "name": "select \"Java Developer\" position",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 35,
+            "name": "the following sections are displayed",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "General description"
+                ],
+                "line": 36
+              },
+              {
+                "cells": [
+                  "Requirements"
+                ],
+                "line": 37
+              },
+              {
+                "cells": [
+                  "Responsibilities"
+                ],
+                "line": 38
+              },
+              {
+                "cells": [
+                  "What we offer"
+                ],
+                "line": 39
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 40,
+            "name": "the apply button is displayed",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 41,
+            "name": "user click on apply button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 42,
+            "name": "user fill the position form as fllow",
+            "match": {},
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "name",
+                  ""
+                ],
+                "line": 43
+              },
+              {
+                "cells": [
+                  "email",
+                  "a@dd.com"
+                ],
+                "line": 44
+              },
+              {
+                "cells": [
+                  "mobile",
+                  "00333331"
+                ],
+                "line": 45
+              },
+              {
+                "cells": [
+                  "message",
+                  "aaaaa"
+                ],
+                "line": 46
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 47,
+            "name": "Upload \"MyCv.pdf\" CV",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 48,
+            "name": "user click on send",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 49,
+            "name": "user click on close button of the popup",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 50,
+            "name": "error messages \"The field is required.\" should be displayed",
+            "match": {},
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 54,
+        "name": "Verify apply position form error messages",
+        "description": "",
+        "id": "musala-software;verify-apply-position-form-error-messages;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 30,
+            "name": "open careers page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 31,
+            "name": "user click on check our open positions button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 32,
+            "name": "the correct URL of join us page is loaded",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 33,
+            "name": "user select \"Anywhere\" from location dropdown list",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 34,
+            "name": "select \"Java Developer\" position",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 35,
+            "name": "the following sections are displayed",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "General description"
+                ],
+                "line": 36
+              },
+              {
+                "cells": [
+                  "Requirements"
+                ],
+                "line": 37
+              },
+              {
+                "cells": [
+                  "Responsibilities"
+                ],
+                "line": 38
+              },
+              {
+                "cells": [
+                  "What we offer"
+                ],
+                "line": 39
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 40,
+            "name": "the apply button is displayed",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 41,
+            "name": "user click on apply button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 42,
+            "name": "user fill the position form as fllow",
+            "match": {},
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "name",
+                  "aaa"
+                ],
+                "line": 43
+              },
+              {
+                "cells": [
+                  "email",
+                  ""
+                ],
+                "line": 44
+              },
+              {
+                "cells": [
+                  "mobile",
+                  "00222222"
+                ],
+                "line": 45
+              },
+              {
+                "cells": [
+                  "message",
+                  "aa11"
+                ],
+                "line": 46
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 47,
+            "name": "Upload \"MyCv.pdf\" CV",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 48,
+            "name": "user click on send",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 49,
+            "name": "user click on close button of the popup",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 50,
+            "name": "error messages \"The field is required.\" should be displayed",
+            "match": {},
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 55,
+        "name": "Verify apply position form error messages",
+        "description": "",
+        "id": "musala-software;verify-apply-position-form-error-messages;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 30,
+            "name": "open careers page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 31,
+            "name": "user click on check our open positions button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 32,
+            "name": "the correct URL of join us page is loaded",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 33,
+            "name": "user select \"Anywhere\" from location dropdown list",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 34,
+            "name": "select \"Java Developer\" position",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 35,
+            "name": "the following sections are displayed",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "General description"
+                ],
+                "line": 36
+              },
+              {
+                "cells": [
+                  "Requirements"
+                ],
+                "line": 37
+              },
+              {
+                "cells": [
+                  "Responsibilities"
+                ],
+                "line": 38
+              },
+              {
+                "cells": [
+                  "What we offer"
+                ],
+                "line": 39
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 40,
+            "name": "the apply button is displayed",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 41,
+            "name": "user click on apply button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 42,
+            "name": "user fill the position form as fllow",
+            "match": {},
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "name",
+                  "aa11"
+                ],
+                "line": 43
+              },
+              {
+                "cells": [
+                  "email",
+                  "a_b@cd.ca"
+                ],
+                "line": 44
+              },
+              {
+                "cells": [
+                  "mobile",
+                  ""
+                ],
+                "line": 45
+              },
+              {
+                "cells": [
+                  "message",
+                  "aa@@"
+                ],
+                "line": 46
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 47,
+            "name": "Upload \"MyCv.pdf\" CV",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 48,
+            "name": "user click on send",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 49,
+            "name": "user click on close button of the popup",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 50,
+            "name": "error messages \"The field is required.\" should be displayed",
+            "match": {},
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 56,
+        "name": "Verify apply position form error messages",
+        "description": "",
+        "id": "musala-software;verify-apply-position-form-error-messages;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 30,
+            "name": "open careers page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 31,
+            "name": "user click on check our open positions button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 32,
+            "name": "the correct URL of join us page is loaded",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 33,
+            "name": "user select \"Anywhere\" from location dropdown list",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 34,
+            "name": "select \"Java Developer\" position",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 35,
+            "name": "the following sections are displayed",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "General description"
+                ],
+                "line": 36
+              },
+              {
+                "cells": [
+                  "Requirements"
+                ],
+                "line": 37
+              },
+              {
+                "cells": [
+                  "Responsibilities"
+                ],
+                "line": 38
+              },
+              {
+                "cells": [
+                  "What we offer"
+                ],
+                "line": 39
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 40,
+            "name": "the apply button is displayed",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 41,
+            "name": "user click on apply button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 42,
+            "name": "user fill the position form as fllow",
+            "match": {},
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "name",
+                  "aa@2"
+                ],
+                "line": 43
+              },
+              {
+                "cells": [
+                  "email",
+                  "a1@a1.org"
+                ],
+                "line": 44
+              },
+              {
+                "cells": [
+                  "mobile",
+                  "0123456789"
+                ],
+                "line": 45
+              },
+              {
+                "cells": [
+                  "message",
+                  ""
+                ],
+                "line": 46
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 47,
+            "name": "Upload \"MyCv.pdf\" CV",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 48,
+            "name": "user click on send",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 49,
+            "name": "user click on close button of the popup",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 50,
+            "name": "error messages \"The field is required.\" should be displayed",
+            "match": {},
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 57,
+        "name": "Verify apply position form error messages",
+        "description": "",
+        "id": "musala-software;verify-apply-position-form-error-messages;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 30,
+            "name": "open careers page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 31,
+            "name": "user click on check our open positions button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 32,
+            "name": "the correct URL of join us page is loaded",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 33,
+            "name": "user select \"Anywhere\" from location dropdown list",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 34,
+            "name": "select \"Java Developer\" position",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 35,
+            "name": "the following sections are displayed",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "General description"
+                ],
+                "line": 36
+              },
+              {
+                "cells": [
+                  "Requirements"
+                ],
+                "line": 37
+              },
+              {
+                "cells": [
+                  "Responsibilities"
+                ],
+                "line": 38
+              },
+              {
+                "cells": [
+                  "What we offer"
+                ],
+                "line": 39
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 40,
+            "name": "the apply button is displayed",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 41,
+            "name": "user click on apply button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 42,
+            "name": "user fill the position form as fllow",
+            "match": {},
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "name",
+                  "aa#3"
+                ],
+                "line": 43
+              },
+              {
+                "cells": [
+                  "email",
+                  "a@a"
+                ],
+                "line": 44
+              },
+              {
+                "cells": [
+                  "mobile",
+                  "110222099"
+                ],
+                "line": 45
+              },
+              {
+                "cells": [
+                  "message",
+                  "11111"
+                ],
+                "line": 46
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 47,
+            "name": "Upload \"MyCv.pdf\" CV",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 48,
+            "name": "user click on send",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 49,
+            "name": "user click on close button of the popup",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 50,
+            "name": "error messages \"The e-mail address entered is invalid.\" should be displayed",
+            "match": {},
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 58,
+        "name": "Verify apply position form error messages",
+        "description": "",
+        "id": "musala-software;verify-apply-position-form-error-messages;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 30,
+            "name": "open careers page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 31,
+            "name": "user click on check our open positions button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 32,
+            "name": "the correct URL of join us page is loaded",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 33,
+            "name": "user select \"Anywhere\" from location dropdown list",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 34,
+            "name": "select \"Java Developer\" position",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 35,
+            "name": "the following sections are displayed",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "General description"
+                ],
+                "line": 36
+              },
+              {
+                "cells": [
+                  "Requirements"
+                ],
+                "line": 37
+              },
+              {
+                "cells": [
+                  "Responsibilities"
+                ],
+                "line": 38
+              },
+              {
+                "cells": [
+                  "What we offer"
+                ],
+                "line": 39
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 40,
+            "name": "the apply button is displayed",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 41,
+            "name": "user click on apply button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 42,
+            "name": "user fill the position form as fllow",
+            "match": {},
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "name",
+                  "aa aa"
+                ],
+                "line": 43
+              },
+              {
+                "cells": [
+                  "email",
+                  "a@a.ca"
+                ],
+                "line": 44
+              },
+              {
+                "cells": [
+                  "mobile",
+                  "@@@"
+                ],
+                "line": 45
+              },
+              {
+                "cells": [
+                  "message",
+                  "@@@@@"
+                ],
+                "line": 46
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 47,
+            "name": "Upload \"MyCv.pdf\" CV",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 48,
+            "name": "user click on send",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 49,
+            "name": "user click on close button of the popup",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 50,
+            "name": "error messages \"The telephone number is invalid.\" should be displayed",
+            "match": {},
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 59,
+        "name": "Verify apply position form error messages",
+        "description": "",
+        "id": "musala-software;verify-apply-position-form-error-messages;;8",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 30,
+            "name": "open careers page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 31,
+            "name": "user click on check our open positions button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 32,
+            "name": "the correct URL of join us page is loaded",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 33,
+            "name": "user select \"Anywhere\" from location dropdown list",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 34,
+            "name": "select \"Java Developer\" position",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 35,
+            "name": "the following sections are displayed",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "General description"
+                ],
+                "line": 36
+              },
+              {
+                "cells": [
+                  "Requirements"
+                ],
+                "line": 37
+              },
+              {
+                "cells": [
+                  "Responsibilities"
+                ],
+                "line": 38
+              },
+              {
+                "cells": [
+                  "What we offer"
+                ],
+                "line": 39
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 40,
+            "name": "the apply button is displayed",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 41,
+            "name": "user click on apply button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 42,
+            "name": "user fill the position form as fllow",
+            "match": {},
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "name",
+                  "a b c"
+                ],
+                "line": 43
+              },
+              {
+                "cells": [
+                  "email",
+                  "a@a.net"
+                ],
+                "line": 44
+              },
+              {
+                "cells": [
+                  "mobile",
+                  "aaaa"
+                ],
+                "line": 45
+              },
+              {
+                "cells": [
+                  "message",
+                  "as"
+                ],
+                "line": 46
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 47,
+            "name": "Upload \"MyCv.pdf\" CV",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 48,
+            "name": "user click on send",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 49,
+            "name": "user click on close button of the popup",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 50,
+            "name": "error messages \"The telephone number is invalid.\" should be displayed",
+            "match": {},
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 69,
+        "name": "Verifying apply Form error message",
+        "description": "",
+        "id": "musala-software;verifying-apply-form-error-message;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 63,
+            "name": "open careers page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 64,
+            "name": "user click on check our open positions button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 65,
+            "name": "user select \"Sofia\" from location dropdown list",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 66,
+            "name": "print opened positions for \"Sofia\" city",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 70,
+        "name": "Verifying apply Form error message",
+        "description": "",
+        "id": "musala-software;verifying-apply-form-error-message;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 63,
+            "name": "open careers page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 64,
+            "name": "user click on check our open positions button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 65,
+            "name": "user select \"Skopje\" from location dropdown list",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 66,
+            "name": "print opened positions for \"Skopje\" city",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Musala Software",
+    "description": "",
+    "id": "musala-software",
+    "keyword": "Feature",
+    "uri": "musala-test-cases.feature"
+  }
+]

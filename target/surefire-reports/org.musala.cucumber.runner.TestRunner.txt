@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.musala.cucumber.runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 155, Failures: 0, Errors: 0, Skipped: 140, Time elapsed: 0.853 s - in org.musala.cucumber.runner.TestRunner
