@@ -1,0 +1,11 @@
+/target/
+/.settings/
+/.properties/
+/.classpath
+/.project
+/bdd-testing.log
+.idea/
+*.iml
+STDOUT
+debug.log
+/.sts4-cache/
