@@ -1,7 +1,7 @@
 **How To Run:**
 
 * Make sure Java 8 is installed
-* Make sure Mave is insrtalled
+* Make sure Maven is installed
 * Can change the browser and URL from system.properties file
   
 **Frame Work Architecture:**
