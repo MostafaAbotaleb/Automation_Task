@@ -122,7 +122,6 @@ public class CustomWebDriver {
         }
     }
 
-
     public Set<String> getWindowHandles() {
         return null;
     }
@@ -131,32 +130,12 @@ public class CustomWebDriver {
         return null;
     }
 
-
     public WebElement findElement(By by) {
         return driver.findElement(by);
     }
 
-
     public List<WebElement> findElements(Locator locator) {
         return driver.findElements(locator.by());
-    }
-
-    public String getCurrentURL() {
-        return driver.getCurrentUrl();
-    }
-
-    /**
-     * Switch current window to the one determined by winHandle
-     *
-     * @param winHandle Identifier of a window
-     */
-    public void switchToHandle(String winHandle) {
-        driver.switchTo().window(winHandle);
-    }
-
-    public String getText(By by) {
-        waitVisibilityOf(by, 10);
-        return findElement(by).getText();
     }
 
     public String switchToNewTab() {
@@ -175,5 +154,9 @@ public class CustomWebDriver {
         List<String> texts = new ArrayList<>();
         findElements(locator).forEach(webElement -> texts.add(webElement.getText()));
         return texts;
+    }
+
+    public String getText(By by) {
+        return findElement(by).getText();
     }
 }

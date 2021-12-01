@@ -29,7 +29,7 @@ public class CompanyPage extends PageObject {
 
     }
 
-    public void swithToTab() {
+    public void switchToNewTab() {
         driver.switchToNewTab();
     }
 }

@@ -94,15 +94,5 @@ public class JoinusStepDef extends AbstractStepDef {
     public void printOpenedPositions(String city) {
         JoinusPage joinusPage = new JoinusPage(state.getDriver());
         joinusPage.getAllOpenPositions().forEach(position -> System.out.println(city + "\n" + "Position: " + position + "\n" + "More info: http://www.musala.com/job/" + position.toLowerCase().replace(" ", "-")));
-        System.out.println("###################");
-
-//        Another way to print the open positions by city
-
-//        joinusPage.getAllOpenPositions().forEach(position ->
-//        {
-//            System.out.println(city);
-//            System.out.println("Position: " + position);
-//            System.out.println("More info: http://www.musala.com/job/" + position.toLowerCase().replace(" ", "-"));
-//        });
     }
 }

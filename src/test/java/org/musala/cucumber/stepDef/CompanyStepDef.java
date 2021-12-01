@@ -39,6 +39,6 @@ public class CompanyStepDef extends AbstractStepDef {
     @And("^user switch to facebook browser tab$")
     public void userSwitchToFacebookBrowserTab() {
         CompanyPage companyPage = new CompanyPage(state.getDriver());
-        companyPage.swithToTab();
+        companyPage.switchToNewTab();
     }
 }
