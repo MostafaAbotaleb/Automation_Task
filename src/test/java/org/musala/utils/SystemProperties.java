@@ -19,7 +19,7 @@ public class SystemProperties {
                 throw new IllegalArgumentException("system.properties not found");
             }
             systemProps.load(appConfigIn);
-            systemProps.forEach((key, value) -> logger.info(key + ": " + value));
+
         } catch (IOException e) {
             logger.error(e);
             throw new IllegalArgumentException(e);

@@ -4,6 +4,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.musala.utils.SystemProperties;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class BrowserFactory {
 
@@ -31,8 +32,9 @@ public class BrowserFactory {
         return new ChromeDriver();
     }
 
-    private static WebDriver getFirefoxDriver() {
-        WebDriverManager.chromedriver().setup();
-        return new ChromeDriver();
+
+    private static WebDriver getFirefoxDriver(){
+        WebDriverManager.firefoxdriver().setup();
+        return new FirefoxDriver();
     }
 }
