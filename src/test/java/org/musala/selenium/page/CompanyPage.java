@@ -14,8 +14,8 @@ public class CompanyPage extends PageObject {
 
 
     public String getUrl() {
+        driver.waitUntilPageUrlContains("https://www.musala.com/company/",10);
         return driver.getSeleniumWebDriver().getCurrentUrl();
-
     }
 
     public boolean isLeadershipSectionVisible() {

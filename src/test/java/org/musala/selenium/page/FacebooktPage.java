@@ -7,6 +7,7 @@ import java.util.Iterator;
 import java.util.Set;
 import static org.musala.selenium.locator.FacebookLocator.*;
 
+
 public class FacebooktPage extends PageObject {
     public FacebooktPage(CustomWebDriver driver) {
         super(driver, FacebooktPage.class.getName());
@@ -25,8 +26,9 @@ public class FacebooktPage extends PageObject {
         driver.clickOn(fbAcceptAllButton);
     }
 
-    public String getUrl() {
+    public String getUrl()  {
         driver.switchToNewTab();
+        driver.waitUntilPageUrlContains("www.facebook.com/MusalaSoft",10);
         return driver.getCurrentUrl();
     }
 

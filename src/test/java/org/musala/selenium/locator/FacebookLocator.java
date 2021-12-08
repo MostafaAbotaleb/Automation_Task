@@ -9,6 +9,7 @@ public enum FacebookLocator implements Locator {
     fbAcceptAllButton(By.xpath("//button[text()='Accept All']")),
     fbProfile(By.xpath("//div[@class='_6tay']/img"));
 
+
     static Logger logger = Logger.getLogger(FacebookLocator.class.getName());
     private By locator;
 

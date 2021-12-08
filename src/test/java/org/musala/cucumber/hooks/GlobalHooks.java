@@ -47,7 +47,7 @@ public class GlobalHooks {
         }
     }
 
-    @After(order = 7)
+    @After(order = 4)
     public void restartBrowserOnFailure() {
         if (localState.getDriver() != null) {
             globalDriver = localState.getDriver();

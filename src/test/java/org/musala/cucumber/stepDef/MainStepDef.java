@@ -20,7 +20,7 @@ public class MainStepDef extends AbstractStepDef {
     }
 
     @Given("^open company page$")
-    public void openCompanyPage() {
+    public void openCompanyPage() throws Throwable {
         MainPage mainPage = new MainPage(state.getDriver());
         mainPage.openCompanyPage();
     }

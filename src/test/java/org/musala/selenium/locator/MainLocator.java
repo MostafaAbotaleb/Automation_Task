@@ -8,7 +8,7 @@ import org.openqa.selenium.By;
 public enum MainLocator implements Locator {
     contactUsButton(By.xpath("//button/span[text()='Contact us']/..")),
     careersTab(By.xpath("//ul[@id='menu-main-nav-1']//a[text()='Careers']")),
-    companyTap(By.xpath("//ul[@id='menu-main-nav-1']//a[text()='Company']"));
+    companyTap(By.xpath("//ul[@id='menu-main-nav-1']//a[contains(@href,'company')]"));
 
     static Logger logger = Logger.getLogger(MainLocator.class.getName());
     private By locator;

@@ -1,7 +1,7 @@
 package org.musala.selenium.driver;
 
 import org.apache.log4j.Logger;
-import org.musala.selenium.locator.JoinusLocator;
+
 import org.musala.selenium.locator.core.Locator;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -12,6 +12,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
+
 import java.util.stream.IntStream;
 
 
@@ -59,6 +60,10 @@ public class CustomWebDriver {
         clickOn(locator.by());
     }
 
+    public void forceClickElement(WebElement element) {
+        ((JavascriptExecutor) driver).executeScript("arguments[0].click();", element);
+    }
+
     public void waitVisibilityOf(By by, int timeOut) {
         WebDriverWait wait = new WebDriverWait(driver, timeOut);
         wait.until(ExpectedConditions.visibilityOfElementLocated(by));
@@ -68,14 +73,6 @@ public class CustomWebDriver {
         waitVisibilityOf(locator.by(), timeOut);
     }
 
-    public void waitInvisibilityOf(By by, int timeOut) {
-        WebDriverWait wait = new WebDriverWait(driver, timeOut);
-        wait.until(ExpectedConditions.invisibilityOfElementLocated(by));
-    }
-
-    public void waitInvisibilityOf(Locator locator, int timeOut) {
-        waitInvisibilityOf(locator.by(), timeOut);
-    }
 
     public boolean isElementVisible(By by) {
         return driver.findElement(by).isDisplayed();
@@ -159,4 +156,12 @@ public class CustomWebDriver {
     public String getText(By by) {
         return findElement(by).getText();
     }
+
+
+    public boolean waitUntilPageUrlContains(String expectedPageUrl, long timeOutInSeconds) {
+        WebDriverWait wait = new WebDriverWait(getSeleniumWebDriver(), timeOutInSeconds);
+        wait.until(ExpectedConditions.urlContains(expectedPageUrl));
+        return true;
+    }
+
 }
