@@ -23,9 +23,15 @@ public class CompanyPage extends PageObject {
         return driver.isElementVisible(leadershipSection.by());
     }
 
-    public void openFacebookLink() {
+    public void openFacebookLink(){
         driver.waitVisibilityOf(facebookIcon.by(), 10);
+        driver.waitVisibilityOf(acceptButtonCookies.by(), 10);
+        driver.clickOn(acceptButtonCookies);
+        driver.deleteAllCookies();
+
         driver.clickOn(facebookIcon);
+
+        
 
     }
 

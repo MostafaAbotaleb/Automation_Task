@@ -8,8 +8,7 @@ import org.musala.selenium.page.MainPage;
 
 public class MainStepDef extends AbstractStepDef {
     public MainStepDef(TestState state) {
-        super(state, MainStepDef
-                .class.getName());
+        super(state, MainStepDef.class.getName());
     }
 
     @Given("^open contact page$")

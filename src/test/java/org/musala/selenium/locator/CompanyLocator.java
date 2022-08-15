@@ -8,8 +8,8 @@ import org.openqa.selenium.By;
 public enum CompanyLocator implements Locator {
 
     leadershipSection(By.xpath("//section[@class='company-members']")),
-    facebookIcon(By.xpath("//span[@class='musala musala-icon-facebook']"));
-
+    facebookIcon(By.cssSelector("span[class='musala musala-icon-facebook']")),
+    acceptButtonCookies(By.id("wt-cli-accept-all-btn"));
 
     static Logger logger = Logger.getLogger(CompanyLocator.class.getName());
     private By locator;

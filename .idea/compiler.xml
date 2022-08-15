@@ -9,5 +9,8 @@
         <module name="musala.soft.bdd" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="musala.soft.bdd" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

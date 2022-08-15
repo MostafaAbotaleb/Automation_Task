@@ -17,7 +17,7 @@ public class FacebooktPage extends PageObject {
     public void swithToPopUp() {
         Set<String> handles = driver.getWindowHandles();
         Iterator<String> iterator = handles.iterator();
-        String subWindowHandler = iterator.next();
+        String subWindowHandler =iterator.next();
         driver.switchTo().window(subWindowHandler);
     }
 
@@ -33,7 +33,7 @@ public class FacebooktPage extends PageObject {
     }
 
     public boolean isProfilePictureDisplayed() {
-        driver.waitVisibilityOf(fbProfile.by(), 10);
+        driver.waitVisibilityOf(fbProfile.by(), 20);
         return driver.isElementVisible(fbProfile.by());
     }
 }

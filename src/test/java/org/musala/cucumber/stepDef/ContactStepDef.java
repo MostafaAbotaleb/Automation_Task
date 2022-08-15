@@ -12,8 +12,7 @@ import org.musala.selenium.page.ContactPage;
 
 public class ContactStepDef extends AbstractStepDef {
     public ContactStepDef(TestState state) {
-        super(state, ContactStepDef
-                .class.getName());
+        super(state, ContactStepDef.class.getName());
     }
 
 

@@ -10,8 +10,7 @@ import org.musala.selenium.page.FacebooktPage;
 
 public class FacebookStepDef extends AbstractStepDef {
     public FacebookStepDef(TestState state) {
-        super(state, FacebookStepDef
-                .class.getName());
+        super(state, FacebookStepDef.class.getName());
     }
 
 

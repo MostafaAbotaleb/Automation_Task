@@ -15,6 +15,8 @@ public enum CareersLocator implements Locator {
         this.locator = locator;
     }
 
+
+
     @Override
     public By by() {
         logger.trace("locator");

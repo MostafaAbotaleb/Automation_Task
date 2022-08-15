@@ -32,17 +32,19 @@ public class SystemProperties {
         String seleniumBrowser = SYSTEM_PROPS.getProperty("selenium.browser");
         if (seleniumBrowser == null) {
             throw new IllegalArgumentException("selenium.browser configuration not found in system.properties");
-        } else {
-            return seleniumBrowser;
         }
+
+            return seleniumBrowser;
+
     }
 
     public static String getApplicationUrl() {
-        String seleniumBrowser = SYSTEM_PROPS.getProperty("application.url");
-        if (seleniumBrowser == null) {
+        String applicationUrl = SYSTEM_PROPS.getProperty("application.url");
+        if (applicationUrl == null) {
             throw new IllegalArgumentException("application.url configuration not found in system.properties");
-        } else {
-            return seleniumBrowser;
+        }
+        else {
+            return applicationUrl;
         }
     }
 }

@@ -9,8 +9,8 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = {"src/test/resources/features"},
         glue = {
-                "com.celonis.cucumber.stepDef",
-                "com.celonis.cucumber.hooks"
+                "org.musala.cucumber.stepDef",
+                "org.musala.cucumber.hooks"
         },
         plugin = {
                 "json:target/reports/cucumber/cucumber.json",

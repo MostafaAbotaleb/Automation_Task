@@ -9,8 +9,7 @@ import org.musala.selenium.page.CareersPage;
 
 public class CareersStepDef extends AbstractStepDef {
     public CareersStepDef(TestState state) {
-        super(state, CareersStepDef
-                .class.getName());
+        super(state, CareersStepDef.class.getName());
     }
 
 

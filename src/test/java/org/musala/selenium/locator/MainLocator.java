@@ -6,7 +6,7 @@ import org.musala.selenium.locator.core.Locator;
 import org.openqa.selenium.By;
 
 public enum MainLocator implements Locator {
-    contactUsButton(By.xpath("//button/span[text()='Contact us']/..")),
+    contactUsButton(By.cssSelector("span[data-alt='Contact us']")),
     careersTab(By.xpath("//ul[@id='menu-main-nav-1']//a[text()='Careers']")),
     companyTap(By.xpath("//ul[@id='menu-main-nav-1']//a[contains(@href,'company')]"));
 
@@ -17,7 +17,7 @@ public enum MainLocator implements Locator {
         this.locator = locator;
     }
 
-    @Override
+//    @Override
     public By by() {
         logger.trace("locator");
         return locator;

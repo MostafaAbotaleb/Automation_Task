@@ -12,8 +12,7 @@ import org.musala.selenium.page.CompanyPage;
 
 public class CompanyStepDef extends AbstractStepDef {
     public CompanyStepDef(TestState state) {
-        super(state, CompanyStepDef
-                .class.getName());
+        super(state, CompanyStepDef.class.getName());
     }
 
 

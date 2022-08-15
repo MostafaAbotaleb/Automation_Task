@@ -35,8 +35,13 @@ public class CustomWebDriver {
     public void goToUrl(String URL) {
         driver.navigate().to(URL);
     }
+    public void deleteAllCookies() {
+        driver.manage().deleteAllCookies();
+    }
+
 
     public void sendKeysTo(Locator locator, String text) {
+
         sendKeysTo(locator.by(), text);
     }
 
@@ -78,9 +83,7 @@ public class CustomWebDriver {
         return driver.findElement(by).isDisplayed();
     }
 
-    public void deleteAllCookies() {
-        driver.manage().deleteAllCookies();
-    }
+
 
     public void blur(Locator locator) {
         WebElement element = driver.findElement(locator.by());

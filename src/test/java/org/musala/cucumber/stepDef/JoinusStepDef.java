@@ -11,8 +11,7 @@ import org.musala.selenium.page.JoinusPage;
 
 public class JoinusStepDef extends AbstractStepDef {
     public JoinusStepDef(TestState state) {
-        super(state, JoinusStepDef
-                .class.getName());
+        super(state, JoinusStepDef.class.getName());
     }
 
 
